@@ -1,0 +1,25 @@
+.author {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+	div {
+		strong {
+			display: block;
+
+			color: var(--gray-100);
+
+			line-height: 1.6;
+		}
+
+		span {
+			display: block;
+
+			line-height: 1.6;
+
+			color: var(--gray-400);
+
+			font-size: 0.875rem;
+		}
+	}
+}

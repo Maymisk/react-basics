@@ -1,0 +1,46 @@
+.post {
+	background: var(--gray-800);
+
+	border-radius: 8px;
+
+	padding: 2.5rem;
+
+	& + & {
+		margin-top: 2rem;
+	}
+
+	> header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		time {
+			font-size: 0.875rem;
+			color: var(--gray-400);
+		}
+	}
+}
+
+.content {
+	line-height: 1.6;
+
+	color: var(--gray-300);
+
+	margin-top: 1.5rem;
+
+	p {
+		margin-top: 1rem;
+	}
+
+	a {
+		color: var(--green-500);
+
+		font-weight: bold;
+
+		transition: color 0.2s;
+
+		&:hover {
+			color: var(--green-300);
+		}
+	}
+}
